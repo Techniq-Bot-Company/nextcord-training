@@ -29,7 +29,7 @@ async def on_ready():
             type=nextcord.ActivityType.watching, #should only be changed (streaming,listening,playing) 
             name='Techniq Bot Company')
     )
-    print('Airbus_bot is up and ready to serve!')
+    print('<bot_name> is up and ready to serve!')
 		
 @bot.command()
 async def command_name(ctx,par2,par3): #set par2 , par3 .... according to the input that will go with the command
