@@ -8,6 +8,7 @@ from nextcord.ext import commands
 #Following two packages are required only for hosting on repl.it. If you are using self hosting need not use it
 from flask import Flask
 from threading import Thread
+import os
 
 app = Flask("")
 
